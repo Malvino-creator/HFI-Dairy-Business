@@ -19,19 +19,29 @@ ul {
   li a {  
     display: block; 
     color: black;
-   font-size:20px;  
+   font-size:50px;  
     text-align: center;  
     padding: 10px 20px;  
     text-decoration: none;  
+    justify-content: space-around;
+    font-weight: 800px;
+    flex: 50px;
+
   }  
   #logo{
     display: flex;
     text-align: center;
     font-style: italic;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 800px;
   }
   .images{
     height: 100px;
     width: 50px;
     float: left;
   }
-  
+  .h1{
+    padding-left: 100px;
+    margin-left: 60px;
+  }
