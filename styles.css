@@ -28,3 +28,9 @@ ul {
     text-align: center;
     font-style: italic;
   }
+  .images{
+    height: 100px;
+    width: 50px;
+    float: left;
+  }
+  
