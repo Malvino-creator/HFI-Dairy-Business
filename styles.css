@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:greenyellow
 }
 
 ul {  
@@ -8,7 +9,7 @@ ul {
     margin: 0;  
     padding: 0px;  
     overflow: hidden;  
-    background-color: blue 
+    background-color: white
   }  
     
   li {  
@@ -17,7 +18,7 @@ ul {
     
   li a {  
     display: block; 
-    color: white;
+    color: black;
    font-size:20px;  
     text-align: center;  
     padding: 10px 20px;  
