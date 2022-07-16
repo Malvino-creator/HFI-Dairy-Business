@@ -40,6 +40,14 @@ ul {
     height: 100px;
     width: 50px;
     float: left;
+    padding-top: 3px;
+  }
+  #div *{ background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
   }
   .h1{
     padding-left: 100px;
