@@ -8,43 +8,19 @@ for(let i = 0; i < invent.length; i++){
    let text1 = text.innerHTML
    array.push(text1)
 }
-let totalFresian = 0
+let totalMilk = 0
 for(var i in array){
-    totalFresian += parseInt(array[i])
+    totalMilk+= parseInt(array[i])
 }
-document.getElementById('fresianCows').innerHTML = (totalFresian)
+document.getElementById('totalMilk').innerHTML = (totalMilk)
 
-//Total number of Jersey
-let array2 = []
-let invent2 = ['jerseyCow1', 'jerseyCow2']
-for(let i = 0; i < invent2.length; i++){
-    let text = document.getElementById(invent2[i])
-    let text1 = text.innerHTML
-    array2.push(text1)
-}
-let totalJersey = 0
-for(var i in array2){
-    totalJersey += parseInt(array2[i])
-}
+
 document.getElementById('jerseyCows').innerHTML = (totalJersey)
 
 //total number of cows
 let totalCows = parseInt(totalFresian + totalJersey)
 document.getElementById('allCows').innerHTML =(totalCows)
 
-//Total number of employees
-let arrayEmployees = ['tDrivers', 'tMen']
-let arrayEmp = []
-for(let i = 0; i < arrayEmployees.length; i++){
-    let text = document.getElementById(arrayEmployees[i])
-    let text1 = text.innerHTML
-    arrayEmp.push(text1)
-}
-let totalEmployees = 0
-for (var i in arrayEmp){
-    totalEmployees+=parseInt(arrayEmp[i])
-}
-document.getElementById('employe').innerHTML = (totalEmployees)
 
 // total equipment
 let arrayEquips = ['tVehicles', 'tMilkers']
