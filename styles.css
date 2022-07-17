@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:greenyellow
+
 }
 
 ul {  
@@ -14,42 +14,61 @@ ul {
     
   li {  
     float: left;  
+      }
+
+  
+  #sheds{
+    display: flexbox;
+    float: left; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
   }  
     
   li a {  
     display: block; 
     color: black;
-   font-size:50px;  
+   font-size:20px;  
     text-align: center;  
-    padding: 10px 20px;  
+    padding: 20px 20px;  
     text-decoration: none;  
-    justify-content: space-around;
-    font-weight: 800px;
-    flex: 50px;
-
+    float: left;
+    margin-right: 10px;
+    justify-items: right;
   }  
-  #logo{
-    display: flex;
-    text-align: center;
-    font-style: italic;
-    justify-content: space-between;
-    font-size: large;
-    font-weight: 800px;
-  }
+  
   .images{
     height: 100px;
     width: 50px;
     float: left;
     padding-top: 3px;
   }
-  #div *{ background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
+
   .h1{
     padding-left: 100px;
     margin-left: 60px;
+    text-align: center;
+
+  }
+  #navbar{
+    margin-right: 20px;
+    flex-direction: row;
+    float: inline-end;
+    justify-items: center;
+    align-items: center;
+  }
+  #button{
+    background-color: coral;
+  }
+  #div *{
+    float: left;
+    padding: 15px;
+    background: red;
   }
