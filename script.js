@@ -2,7 +2,7 @@
 /*============================Output=================================*/
 //sum total number of litres
 let array = []
-let invent = ['fresianCow1', 'fresianCow2']
+let invent = ['Litres', 'Amounts']
 for(let i = 0; i < invent.length; i++){
     let text = document.getElementById(invent[i])
    let text1 = text.innerHTML
