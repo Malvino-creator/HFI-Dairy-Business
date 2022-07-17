@@ -27,7 +27,7 @@ ul {
   }  
     
   li a {  
-    display: block; 
+    display: flex; 
     color: black;
    font-size:20px;  
     text-align: center;  
@@ -35,7 +35,6 @@ ul {
     text-decoration: none;  
     float: left;
     margin-right: 10px;
-    justify-items: right;
   }  
   
   .images{
@@ -53,22 +52,13 @@ ul {
 
   .h1{
     padding-left: 100px;
-    margin-left: 60px;
-    text-align: center;
+    margin-right: 30px;
 
   }
   #navbar{
-    margin-right: 20px;
+    margin-right: 10px;
     flex-direction: row;
-    float: inline-end;
-    justify-items: center;
     align-items: center;
-  }
-  #button{
-    background-color: coral;
-  }
-  #div *{
-    float: left;
-    padding: 15px;
-    background: red;
-  }
+    border: 10px;
+}
+ 
