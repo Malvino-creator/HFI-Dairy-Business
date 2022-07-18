@@ -1,11 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 .navbar{
     list-style: none;
-    padding: 3;
-    margin: 2;
+    padding: 0;
+    margin:0;
 }
 .navbar li{
     display: inline-block;
@@ -14,12 +15,12 @@ body{
 .navbar a{
     text-decoration: none;
     color: black;
-    display: block;
-    padding: 10px px;
+    display: inline;
+    padding: 80px;
     font-size: 15px;
-    text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
+    margin: 0%;
 }
 .navbar a:hover{ 
     background: orange;
@@ -30,7 +31,8 @@ ul {
     padding: 0;  
     overflow: hidden;  
     background-color: black;
-    float: none;   
+    float: left; 
+    text-align: left;  
 }      
   li {  
     float: left;  
@@ -46,12 +48,9 @@ ul {
   }  
   #logo{
     display: flex;
-    text-align: center;
-    font-style: italic;
-    justify-content: space-between;
-    font-size: large;
-    font-weight: 800px;
-    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-right: 50px;
   }
   .div1 {
     border: 1px solid black;
