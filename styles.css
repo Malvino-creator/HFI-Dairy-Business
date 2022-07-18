@@ -115,7 +115,8 @@ ul {
     text-decoration: none;
     flex-direction: row;text-indent: 30px;
     line-height: 22px;
-
-
-    
+  }
+  #socialicons{
+    height: 10px;
+    width: 20px;
   }

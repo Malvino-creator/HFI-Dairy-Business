@@ -15,42 +15,18 @@ for(var i in array){
 document.getElementById('totalMilk').innerHTML = (totalMilk)
 
 
-document.getElementById('jerseyCows').innerHTML = (totalJersey)
-
+document.getElementById('').innerHTML = (totalJersey)
 //total number of cows
 let totalCows = parseInt(totalFresian + totalJersey)
 document.getElementById('allCows').innerHTML =(totalCows)
 
 
-// total equipment
-let arrayEquips = ['tVehicles', 'tMilkers']
-let arrayEqp = []
-for(let i = 0; i < arrayEquips.length; i++){
-    let text = document.getElementById(arrayEquips[i])
-    let text1 = text.innerHTML
-    arrayEqp.push(text1)
-}
-let totalEquipment = 0
-for (var i in arrayEqp){
-    totalEquipment+=parseInt(arrayEqp[i])
-}
-console.log(totalEquipment)
-document.getElementById('farmMachinery').innerHTML = (totalEquipment)
+/*============================Cost of Production=================================*/
+/* ======Cost of Input===== */
 
-/*============================Production Cost=================================*/
-/* ======Service cost===== */
-document.getElementById('subButton').onclick = function(){
-    var serviceFee = document.getElementById('s4_service').value;
-    let serviceFeeDay = (serviceFee/30)
-    document.getElementById('serviceCost').innerHTML = Math.floor(serviceFeeDay)
-
-    var medCost = document.getElementById('medicine').value;
-    var medCostDay = Math.floor(medCost/30)
+    var medicineCost = document.getElementById('medicine').value;
+    var medicineCostDay = Math.floor(medCost/30)
     document.getElementById('medicineCost').innerHTML = medCostDay
-
-    var landRate =document.getElementById('valueLand').value;
-    var landRateDay = Math.floor((landRate * 0.115)/365)
-    document.getElementById('landRate').innerHTML = landRateDay
 
     var feeds =document.getElementById('feeds').value;
     var feedsDay = Math.floor(feeds/30)
@@ -64,12 +40,12 @@ document.getElementById('subButton').onclick = function(){
     var otherDay = Math.floor(other)
     document.getElementById('otherCost').innerHTML = otherDay
 
-    prodCostDay = (otherDay + wagesDay + feedsDay + landRateDay + medCostDay + serviceFeeDay)
+    prodCostDay = (otherDay + wagesDay + feedsDay + + medicineCostDay + serviceFeeDay)
     document.getElementById('productionCost').innerHTML = Math.floor(prodCostDay)
-}
+
 
 /* ============================Forecast==================================== */
-/* ==============Weekly forecast================ */
+
 document.getElementById('button5_1').onclick = function(){
     var year = prompt("Input to forecast", '2022')
     var year = prompt("Input to forecast", '2022')
