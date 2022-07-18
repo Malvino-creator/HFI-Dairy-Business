@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:greenyellow;
+    text-align: center;
 }
 .navbar{
     list-style: none;
@@ -111,7 +112,7 @@ ul {
     text-decoration: none;
     flex-direction: row;text-indent: 30px;
     line-height: 22px;
-    
+
 
     
   }
