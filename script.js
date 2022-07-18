@@ -41,10 +41,7 @@ document.getElementById('allCows').innerHTML =(totalCows)
     document.getElementById('otherCost').innerHTML = otherDay
 
     prodCostDay = (otherDay + wagesDay + feedsDay + + medicineCostDay + serviceFeeDay)
-    document.getElementById('productionCost').innerHTML = Math.floor(prodCostDay)
-
-
-/* ============================Forecast==================================== */
+    /* ============================Forecast==================================== */
 
 document.getElementById('button5_1').onclick = function(){
     var year = prompt("Input to forecast", '2022')
@@ -131,9 +128,8 @@ document.getElementById('button5_2').onclick = function(){
         let soldMilk2 = []
         for(var i = 0; i < monthMilkSale.length; i++){
             for(var y = 0; y < keyMonth.length; y++){
-                var milkMonthSold = "The total milk sold in " + keyMonth[y] + ' is ' + monthMilkSale[i] + "<br/>"
-                soldMilk2.push(milkMonthSold)
-            }
+                    var milkMonthSold = "The total milk sold in " + keyMonth[y] + ' is ' + monthMilkSale[i] + "<br/>"
+                soldMilk2.push(milkMonthSold)}
         }
         document.getElementById('milkMonthSold2').innerHTML = [...new Set(soldMilk2)]
         //Sale of milk per month

@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:greenyellow;
-    text-align: center;
 }
 .navbar{
     list-style: none;
@@ -29,10 +27,9 @@ body{
 ul {  
     list-style-type: none;  
     margin: 0;  
-    padding: 0px;  
+    padding: 0;  
     overflow: hidden;  
-    background-color: white;
-    flex-direction: row;
+    background-color: black;
     float: none;   
 }      
   li {  
@@ -40,14 +37,12 @@ ul {
   }  
     
   li a {  
-    display: block; 
+    display: inline; 
     color: black;
    font-size:30px;  
     text-align: center;  
-    padding: 10px 20px;  
-    text-decoration: none;  
-    float: left;
-    margin-right: 5px;
+    padding: 8px;
+    background-color: green;
   }  
   #logo{
     display: flex;
@@ -58,6 +53,18 @@ ul {
     font-weight: 800px;
     align-items: center;
   }
+  .div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(./assets/dairycattle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  body {
+    background-image: url('img_girl.jpg');
+  }
+  
   .images{
     height: 100px;
     width: 50px;
@@ -120,3 +127,6 @@ ul {
     height: 10px;
     width: 20px;
   }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
