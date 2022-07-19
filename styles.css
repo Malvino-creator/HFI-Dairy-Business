@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    
+    text-rendering: auto;
+    color: aliceblue;
+    text-align: center;
 }
 .navbar{
     list-style: none;
@@ -11,12 +13,13 @@ body{
 .navbar li{
     display: inline-block;
     text-align: center;
+    margin-right: 0;
 }
 .navbar a{
     text-decoration: none;
     color: black;
     display: inline;
-    padding: 80px;
+    padding: 50px;
     font-size: 15px;
     font-weight: bolder;
     text-align: center;
@@ -51,6 +54,7 @@ ul {
     flex-direction: row;
     margin-bottom: 20px;
     padding-right: 50px;
+    float: left;
   }
   .div1 {
     border: 1px solid black;
@@ -59,10 +63,8 @@ ul {
     background: url(./assets/dairycattle.png);
     background-repeat: no-repeat;
     background-size: contain;
-  }
-  body {
-    background-image: url('img_girl.jpg');
-  }
+    }
+      
   
   .images{
     height: 100px;
@@ -129,3 +131,19 @@ ul {
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+  }
+
+
+    .shed-capct{
+        box-sizing: border-box;
+        padding-left: 60px;
+    }
+
+    .s{
+      padding-top: 40px;
+      padding-left: 60px;
+      margin-top: 40px;
+    }
+    .Partners{
+      
+    }
