@@ -142,12 +142,21 @@ ul {
 
     .s{
       padding-top: 40px;
-      padding-left: 150px;
+      padding-left: 300px;
+      padding-right: 400px;
       margin-top: 40px;
+      width: 1100px;
     }
     .Partners{
       float: left;
       background-color: none;
       padding-left: 400px;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
+    }
+    .h2{
+    margin-top: 0px;
+    margin-bottom: -100px;
+    padding: 100px;
+    justify-items: flex-end;
+  
     }
