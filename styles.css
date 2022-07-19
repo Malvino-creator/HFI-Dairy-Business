@@ -136,14 +136,18 @@ ul {
 
     .shed-capct{
         box-sizing: border-box;
+        padding-right: 60px;
         padding-left: 60px;
     }
 
     .s{
       padding-top: 40px;
-      padding-left: 60px;
+      padding-left: 150px;
       margin-top: 40px;
     }
     .Partners{
-      
+      float: left;
+      background-color: none;
+      padding-left: 400px;
+      margin-bottom: 50px;
     }
