@@ -16,7 +16,7 @@ function createTable() {
     let tr2 = document.getElementById('shed2')
     let tr3 = document.getElementById('total')
     let tr4 = document.getElementById('earnings')
-    for (let x = 0; x < 7; x++) {
+    for (let x = 0; x < 9; x++) {
         let td1 = document.createElement('td')
         let td2 = document.createElement('td')
         let td3 = document.createElement('td')
@@ -44,21 +44,21 @@ const randGen = () => {
 }
 
 const fillShed1 = () => {
-    for (let x = week; x < 7 + week; x++) {
+    for (let x = week; x < 9 + week; x++) {
         let td = document.getElementById(`shed1${x - week}`)
         td.innerHTML = data.shed1[x]
     }
 }
 
 const fillShed2 = () => {
-    for (let x = week; x < 7 + week; x++) {
+    for (let x = week; x < 9 + week; x++) {
         let td = document.getElementById(`shed2${x - week}`)
         td.innerHTML = data.shed2[x]
     }
 }
 
 const fillTotal = () => {
-    for (let x = week; x < 7 + week; x++) {
+    for (let x = week; x < 9 + week; x++) {
         let total = data.shed1[x] + data.shed2[x]
         let td = document.getElementById(`total${x - week}`)
         td.innerHTML = total
@@ -66,7 +66,7 @@ const fillTotal = () => {
 }
 
 const fillEarnings = () => {
-    for (let x = week; x < 7 + week; x++) {
+    for (let x = week; x < 9 + week; x++) {
         let td = document.getElementById(`earnings${x - week}`)
         td.innerHTML = data.earnings[x]
     }
