@@ -26,7 +26,7 @@ body {
   justify-content: center;
 }
 
-.navbar {
+.nav_links {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
