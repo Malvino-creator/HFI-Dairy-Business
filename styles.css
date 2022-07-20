@@ -23,7 +23,7 @@ body {
 .container {
   padding: 0 0 0 10%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -123,10 +123,6 @@ th {
 
   ul {
     flex-direction: row;
-  }
-
-  .sheds {
-    overflow-x: auto;
   }
 
   .navbar-brand {
